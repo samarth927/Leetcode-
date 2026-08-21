@@ -4,8 +4,8 @@ public:
         int n = nums.size();
         int totalsum = n*(n+1)/2;
         int sum = 0;
-        for (int j = 0; j < n; j++){
-            sum = sum + nums[j];
+        for (int i = 0; i < n; i++){
+            sum = sum + nums[i];
         }
         int missing = totalsum - sum;
         return missing; 
